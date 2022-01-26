@@ -74,7 +74,7 @@ export class Login extends Component {
   handleSubmit(event) {
     event.preventDefault();
     this.setState({ submitted: true });
-    const { firstname, lastname, email, password } = this.state;
+    const { firstname, lastname, email } = this.state;
 
     console.log(
       "First Name: " +
