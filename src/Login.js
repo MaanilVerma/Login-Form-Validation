@@ -84,7 +84,7 @@ export class Login extends Component {
         " " +
         email +
         " " +
-        password
+        "Password: It's Top Secret!"
     );
   }
 
